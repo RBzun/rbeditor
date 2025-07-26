@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>尺乃ﾠ乇ᗪ丨ㄒㄖ尺 | Editor de Vídeo & Designer</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0a0a0a;
+      color: #ffffff;
+    }
+
+    header {
+      background-color: #000;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      color: #00f0ff;
+      margin: 0;
+    }
+
+    nav a {
+      color: #fff;
+      margin-left: 20px;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #00f0ff;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    .hero a.button {
+      background-color: #00f0ff;
+      color: #000;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h3 {
+      font-size: 28px;
+      color: #00f0ff;
+      margin-bottom: 20px;
+    }
+
+    .portfolio-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .video-item iframe {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      border: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: #000;
+      color: #666;
+    }
+
+    @media (max-width: 768px) {
+      .portfolio-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>尺乃ﾠ乇ᗪ丨ㄒㄖ尺</h1>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#portfolio">Portfólio</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Transformo ideias em vídeos profissionais e design impactante.</h2>
+    <a class="button" href="https://wa.link/v6nsaq" target="_blank">💬 Falar no WhatsApp</a>
+  </section>
+
+  <section id="sobre">
+    <h3>Sobre Mim</h3>
+    <p>Sou editor de vídeo e designer gráfico profissional. Trabalho com After Effects, Premiere e Photoshop. Entrego projetos com qualidade, criatividade e atenção a cada detalhe.</p>
+  </section>
+
+  <section id="portfolio">
+    <h3>Portfólio</h3>
+    <div class="portfolio-grid">
+
+      <div class="video-item">
+        <iframe src="https://www.youtube.com/embed/Ad4xYFqw1LE" allowfullscreen></iframe>
+        <p><strong>O MOD MAIS ASSUSTADOR QUE JOGUEI | RBzun ツ</strong></p>
+      </div>
+
+      <div class="video-item">
+        <iframe src="https://www.youtube.com/embed/92n5b20vZxo" allowfullscreen></iframe>
+        <p><strong>🟥 Eu Vou Ser o MAIS Forte Desse SERVIDOR! | Biscoit0</strong></p>
+      </div>
+
+      <div class="video-item">
+        <iframe src="https://www.youtube.com/embed/t5gi5pDj1rc" allowfullscreen></iframe>
+        <p><strong>COMENTANDO EM LIVES SENDO VERIFICADO!!! | Biscoit0</strong></p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contato">
+    <h3>Contato</h3>
+    <p>Quer transformar seu projeto em algo memorável? Me chame no WhatsApp!</p>
+    <a class="button" href="https://wa.link/v6nsaq" target="_blank">💬 Enviar mensagem</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 RBzun – Todos os direitos reservados</p>
+  </footer>
+
+</body>
+</html>
